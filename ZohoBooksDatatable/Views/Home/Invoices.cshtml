@@ -1,0 +1,35 @@
+﻿
+@{
+    ViewData["Title"] = "Invoices";
+}
+
+
+<div class="container">
+<table id="datatable-inovices" class="display" cellspacing="0" width="100%">
+    <thead>
+        <tr>
+            <th>Invoice Number</th>
+            <th>Customer Name</th>
+            <th>Total</th>
+            <th>Balance</th>
+            <th>Date</th>
+        </tr>
+    </thead>
+    <tbody>
+
+    </tbody>
+</table>
+</div>
+@section Styles {
+    <link rel="stylesheet" href="~/lib/datatables.net/DataTables-1.10.16/css/jquery.dataTables.min.css" />
+}
+@section Scripts {
+
+    <script src="~/lib/datatables.net/DataTables-1.10.16/js/jquery.dataTables.min.js"></script>
+    <environment names="Development">
+        <script src="~/js/invoice.js"></script>
+    </environment>
+    <environment names="Staging,Production">
+        <script src="~/js/etechinternal/usermanagement.min.js" asp-append-version="true"></script>
+    </environment>
+}

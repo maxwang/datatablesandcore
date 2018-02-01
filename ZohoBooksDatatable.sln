@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2008
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZohoBooksDatatable", "ZohoBooksDatatable\ZohoBooksDatatable.csproj", "{F44FB844-23C3-43F4-963E-7663939E0518}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F44FB844-23C3-43F4-963E-7663939E0518}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F44FB844-23C3-43F4-963E-7663939E0518}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F44FB844-23C3-43F4-963E-7663939E0518}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F44FB844-23C3-43F4-963E-7663939E0518}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6097C4BA-5D04-416C-8AC0-4F620B60574C}
+	EndGlobalSection
+EndGlobal
